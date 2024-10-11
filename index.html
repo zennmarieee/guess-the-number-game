@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number Game!</h1>
+        <div class="range-inputs">
+            <div class="min-max">
+                <input type="text" id="minNum">
+                <label for="minNum">Min</label>
+
+                <input type="text" id="maxNum">
+                <label for="maxNum">Max</label>
+
+                <button type="button" id="setBtn">Set</button>
+            </div>
+        </div>
+        <h2 id="hintText">Please fill in the min and max</h2>
+        <h3 id="attempts">(Attempts:)</h3>
+        <input type="text" id="guess">
+        <button type="button" id="guessBtn">Guess</button>
+    </div>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
