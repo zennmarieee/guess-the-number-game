@@ -1,6 +1,8 @@
-# guess-the-number-game
+# Guess the Number Game
 ![image](https://github.com/user-attachments/assets/86eff8f2-d5f7-4bf1-9684-c7aea462a385)
 *Created on: October 11, 2024*
+
+Check out the live demo [here]([https://your-demo-link.com](https://zennmarieee.github.io/guess-the-number-game/)).
 
 This is a personal project I made for fun.
 
